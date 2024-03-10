@@ -5,7 +5,7 @@
             <div class="row vertical-line">
                 <!-- Item 01 -->
                 <div class="col-md-6">
-                    <a href="blog-single.html" class="blog-box">
+                    <a href="{{ route('blog-single') }}" class="blog-box">
                         <div class="blog-image">
                             <img src="https://via.placeholder.com/510x340" alt="/">
                             <div class="blog-icon">

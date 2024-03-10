@@ -16,37 +16,37 @@
     <div class="menu-align">
         <ul class="list-group menu text-center " id="menu">
             <li class="list-group-item">
-                <a href="#hero">
+                <a href="{{ route('home') }}#hero">
                     <i class="bi bi-house"></i>
                     <span>home</span>
                 </a>
             </li>
             <li class="list-group-item">
-                <a href="#about" class="custom-btn">
+                <a href="{{ route('home') }}#about" onclick="closeMenu()" class="custom-btn">
                     <i class="bi bi-person"></i>
                     <span>about</span>
                 </a>
             </li>
             <li class="list-group-item">
-                <a href="#resume">
+                <a href="{{ route('home') }}#resume" onclick="closeMenu()">
                     <i class="bi bi-clipboard-check"></i>
                     <span>resume</span>
                 </a>
             </li>
             <li class="list-group-item">
-                <a href="#portfolio">
+                <a href="{{ route('home') }}#portfolio" onclick="closeMenu()">
                     <i class="bi bi-collection"></i>
                     <span>works</span>
                 </a>
             </li>
             <li class="list-group-item">
-                <a href="#blog">
+                <a href="{{ route('home') }}#blog" onclick="closeMenu()">
                     <i class="bi bi-book"></i>
                     <span>blog</span>
                 </a>
             </li>
             <li class="list-group-item">
-                <a href="#contact">
+                <a href="{{ route('home') }}#contact">
                     <i class="bi bi-geo-alt"></i>
                     <span>contact</span>
                 </a>

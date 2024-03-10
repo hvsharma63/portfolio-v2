@@ -12,4 +12,9 @@ class HomeController extends Controller
     {
         return view('index');
     }
+
+    public function blogSingle()
+    {
+        return view('blog-single');
+    }
 }
